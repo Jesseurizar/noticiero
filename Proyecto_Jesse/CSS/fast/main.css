@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(25, 26, 39);
+}
+
+  
+
+
+.pelicula {
+  width: 100%;
+  margin-top: 4%;
+  background-color: rgba(90, 90, 90, 0.102);
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-row: 2;
+  gap: 20px;
+}
+
+.pelicula img {
+  margin: 10% auto;
+  margin-right: 0;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.content-pelicula > p,
+h1 {
+  font-size: 1.5em;
+  text-align: justify;
+  margin: auto 0;
+  width: 75%;
+  margin-bottom: 1em;
+  margin-left: 30px;
+  color: rgba(180, 179, 179, 0.816);
+}
+
+.content-pelicula {
+  margin-top: 15%;
+}
+
+.botones {
+  margin-left: 10px;
+}
+
+.boton-con {
+  font-size: 1.5em;
+  float: left;
+  margin-left: 20px;
+  color: rgba(180, 179, 179, 0.816);
+}
+
+.boton-con a{
+    border: none;
+    border-radius: 20px;
+    color: rgba(180, 179, 179, 0.816);
+    background: rgba(0, 0, 0, 0.585);
+    padding: 8px;
+    text-decoration: none;
+}
+
+.content-pelicula h1{
+    font-size: 2em;
+    margin-left: 30px;
+}

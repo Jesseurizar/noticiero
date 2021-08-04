@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: rgba(24, 16, 85, 0.959);
+}
+
+
+
+
+form{
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 15%;
+    font-size: 1.5em;
+    max-width: 25%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(149, 149, 149, 0.299);
+}
+
+form legend{
+    text-align: center;
+}
+
+.content-form  input{
+    color: gray;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.content-form input::placeholder{
+    font-size: 1.2em;
+  
+}
+
+form textarea{
+    background-color: rgba(236, 236, 236, 0.537);
+}
+
+.botones-form [type=submit]{
+    border-radius: 10px;
+    background-color: rgba(7, 18, 93, 0.843);
+    padding: 5px;
+    margin-left: 30em;
+    color: white;
+}
